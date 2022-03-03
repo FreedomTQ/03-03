@@ -9,30 +9,33 @@
   <link rel="stylesheet" href="fonts/GardensC.otf">
 </head>
 <body>
+  <!-- expand-md-шапка на весь экран, sticky-top-фиксированно сверху, bg-light-адекватное отображение текста и тд-->
   <nav class="navbar navbar-expand-md navbar-light bg-light sticky-top">
   <div class="container-fluid">
-  <div class="navbar-header">
-    <a class="navbar-brand" href="#"><img src="img/logo-white.png" width="150px" height="100px"></a>
-  </div>
-  <div class="navbar-collapse collapse">
-    <ul class="nav navbar-nav navbar-right">
-      <li class="active"><a href="#">Главная страница</a></li>
-      <li><a href="index2.html">Новости</a></li>
-      <li><a href="analise.html">Аналитика</a></li>
-      <li class="submenu"><a href="#">Список компаний</a>
+    <a class="navbar-brand" href="#"><img src="img/logo-white.png" ></a>
+    
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive">
+      <span class="navbar-toggler-icon"></span></button>
+      <div class="collapse navbar-collapse" id="navbarResponsive">
+        <ul class="navbar-nav ml-auto">
+          <li class="nav-item"><a href="#" class="nav-link-active"><i class="fa fa-home" aria-hidden="true"></i> Главная страница |</a></li>
+          <li class="nav-item"><a href="tel:+7 (923) 398 9013" class="nav-link-active"><i class="fa fa-phone" aria-hidden="true"></i> Связаться с нами: +7 (923) 398 9013 |</a></li>
+          <li class="nav-item"><a href="#" class="nav-link-active"><i class="fa fa-volume-control-phone" aria-hidden="true"></i> Заказать звонок |</a></li>
+          <li class="nav-item"><a href="#" class="nav-link-active"><i class="fa fa-map-marker" aria-hidden="true"></i> Наше расположение</a></li>
+        </ul>
+      </div>
+      <!--<li class="submenu"><a href="#">Список компаний</a>
         <ul class="nav navbar-nav navbar-bottom">
         <li><a href="EA.html">EA</a></li>
         <li><a href="Bliz.html">Blizzard</a></li>
         </ul>
       </li>
-      
-      
-      
-    </ul>
-  </div>
+    -->      
+
 
  </div>
   </nav>
+
 
 
   <div id="headerwrap">
