@@ -1,59 +1,31 @@
 
 body {
 	font-family: 'GardensC';
-	background-color: #f2f2f2;
+	background-color: #d6d6d6;
 	font-weight: 300;
 	font-size: 16px;
-	color: #555;
+
 
 	-webkit-font-smoothing: antialiased;
 	-webkit-overflow-scrolling: touch;
 
-	margin-top: 70px;
+	margin-top: 20px;
 }
-
-h1, h2, h3, h4, h5, h6 {
-	font-weight: 300;
-	color: #333;
-} 
 
 p {
 	line-height: 28px;
 	margin-bottom: 25px;
 }
 
-.centered {
-	text-align: center;
-}
 
-a {
-	color: #f85c37;
-}
-
-a:hover, a:focus {
-	color: #7b7b7b;
-	text-decoration: none;
-	outline: 0;
-}
-
-hr {
-	display: block;
-	height: 1px;
-	border: 0;
-	border-top: 1px solid #ccc;
-	margin: 1em 0;
-	padding:0;
-}
 .navbar {
-	font-weight: 800;
-	font-size: 14px;
-	top: 0;
+	font-size: 20px;
+	height: 6em;
 }
+nav {
 
-.navbar-inverse {
-	background:  #3d3d3d;
-	border-color: #3d3d3d;
 }
+/**
 .submenu:hover .navbar-bottom  {
 	display: block;
 	background: #3d3d3d;
@@ -65,57 +37,36 @@ hr {
 	display: none;
 
 }
-
-.navbar-inverse .navbar-nav > .active > a {
-	background-color: #cc1c1c;
+**/
+.container-fluid {
+	top: 2%;
 }
-
-.navbar-inverse .navbar-brand {
-	color: #999;
-	font-weight: bolder;
-	font-size: 22px;
+.navbar-nav a {
+	border-radius: 45% 45% 45% 45%;
+	display: inline-block;
+	margin-left: 10px;
+	
+}
+.navbar-nav > .active > a {
+	background-color: #d1ecff;
+	max-height: 45px;
+}
+.navbar-nav a:hover, a:focus {
+	background-color: #b0deff;
+	text-decoration: none;
+	outline: 0;
+}
+.navbar-brand {
+	height: 60px;
 	letter-spacing: 1px;
 }
-
-#headerwrap {
-	background: url(../img/header-bg.jpg) no-repeat center top;
-	margin-top: -10px;
-	padding-top: 20px;
-	text-align: center;
-	background-attachment: relative;
-	background-position: center center;
-	min-height: 300px;
-	width: 100%;
-
-	background-size: 100%;
-
-	-webkit-background-size: cover;
-	-moz-background-size: cover;
-	-o-background-size: cover;
-	-background-size: cover;
+.navbar-brand img {
+	width: 80px;
+	height: 50px;
 }
-
-#headerwrap h1 {
-	margin-top: 50px;
-	color: rgb(108, 134, 146);
-	font-size: 70px;
-	font-weight: bold;
-	letter-spacing: 3px;
+.nav-link-active {
+	color: rgb(76, 153, 253);
 }
-
-#headerwrap h2 {
-	color: white;
-	font-size: 40px;
-	letter-spacing: 2px;
-	text-transform: uppercase;
-}
-.img-1 {
-	width: 100%;
-}
-.img-2 {
-	width: 100%;
-}
-
 
 .w {
 	padding-top: 35px;
@@ -204,7 +155,4 @@ hr {
 #f i:hover {
 	color: #ff7878;
 }
-.fck-u p {
-	text-align: left;
-	
-}
+
